@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrive Finance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="logo.png" alt="Thrive Finance Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>
+            </nav>
+            <div class="buttons">
+                <a href="#" class="btn">Get Started</a>
+                <a href="#" class="btn outline">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="image-wrapper">
+                    <img src="company_image.jpg" alt="Thrive Finance Image">
+                </div>
+                <div class="description">
+                    <h1>Empowering Your Financial Journey</h1>
+                    <p>Thrive Finance is a leading financial services company dedicated to helping individuals and businesses achieve their financial goals. We offer a wide range of innovative products and services designed to make managing your finances easier and more rewarding.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-cards">
+                    <div class="card">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h4>Personal Loans</h4>
+                        <p>Consolidate debt, finance home improvements, or cover unexpected expenses with our flexible personal loans.</p>
+                        <a href="#" class="btn outline">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h4>Savings Accounts</h4>
+                        <p>Grow your savings with our competitive interest rates and flexible account options.</p>
+                        <a href="#" class="btn outline">Learn More</a>
+                    </div>
+                    <div class="card">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h4>Investment Services</h4>
+                        <p>Invest for your future with our personalized investment plans and expert guidance.</p>
+                        <a href="#" class="btn outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="container">
+                <h2>Let's Get Started</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Copyright Thrive Finance <?php echo date("Y"); ?></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
